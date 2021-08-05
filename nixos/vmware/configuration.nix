@@ -80,8 +80,34 @@
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
     git
+    neofetch
+    htop
+    #jdk11
+    #python39
+    #jetbrains.idea-ultimate
+    #jetbrains.pycharm-professional
+    #vscode
+    #nodejs
+    #sqlite
+    #sublime3    
     firefox
+    #google-chrome
+    #vlc
+    #calibre
+    foliate
+    #gimp
+    #blender
+    #discord
+    #keepass
+    flameshot
+    #wpsoffice
+    #obs-studio
+    #simplenote
+    #skypeforlinux
+    wine
   ];
+
+  nixpkgs.config.allowUnfree = true;  
 
   # Config swap file creation
   systemd.services = {
