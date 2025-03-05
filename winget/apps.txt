@@ -1,0 +1,6 @@
+winget install fzf
+winget install BurntSushi.ripgrep.MSVC
+winget install nushell
+winget install ajeetdsouza.zoxide
+winget install neofetch
+winget install Neovim.Neovim
