@@ -29,20 +29,20 @@ alias ps-run = ^pwsh -Command
 def --env use-java [jdk_version: int] {
     let base_dir = "C:/Program Files/Eclipse Adoptium"
 
-	try {
-		# Search for a folder starting with "jdk-{jdk_version}"
-		let matching_folder = (ls $base_dir | where name =~ $"jdk-($jdk_version).*" | first)
+    try {
+        # Search for a folder starting with "jdk-{jdk_version}"
+        let matching_folder = (ls $base_dir | where name =~ $"jdk-($jdk_version).*" | first)
 
-		# Get the path to the "bin" folder
+        # Get the path to the "bin" folder
         let bin_path = $"($matching_folder.name)\\bin"
 
         # Temporarily add the "bin" path to PATH for this session
-		$env.PATH = $env.PATH | insert 0 $bin_path
+        $env.PATH = $env.PATH | insert 0 $bin_path
 
         print $"Found and added to PATH: ($bin_path)"
-	} catch {|e|
-		print $"No folder starting with 'jdk-($jdk_version)' was found in '($base_dir)'."
-	}
+    } catch {|e|
+        print $"No folder starting with 'jdk-($jdk_version)' was found in '($base_dir)'."
+    }
 }
 
 def --env use-python [python_version: int] {
@@ -55,11 +55,11 @@ def --env use-python [python_version: int] {
         # Check if both directories exist
         if ($python_path | path exists) and ($scripts_path | path exists) {
             # Temporarily add the paths to PATH for this session
-			$env.PATH = $env.PATH | insert 0 $python_path
-			$env.PATH = $env.PATH | insert 0 $scripts_path
+            $env.PATH = $env.PATH | insert 0 $python_path
+            $env.PATH = $env.PATH | insert 0 $scripts_path
 
             print "Found and added to PATH:"
-			print [$scripts_path, $python_path]
+            print [$scripts_path, $python_path]
         } else {
             throw "One or both directories not found."
         }
