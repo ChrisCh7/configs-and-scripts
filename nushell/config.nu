@@ -67,3 +67,6 @@ def --env use-python [python_version: int] {
         print $"No Python installation found for version '($python_version)' in '($base_dir)'."
     }
 }
+
+# external tools
+source ~/.zoxide.nu
