@@ -1,2 +1,2 @@
-# linux-config
-My linux config stuff
+# configs-and-scripts
+My configs and scripts
