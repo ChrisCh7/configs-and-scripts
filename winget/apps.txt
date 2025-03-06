@@ -6,3 +6,4 @@ winget install neofetch
 winget install Neovim.Neovim
 # after: broot --install
 winget install --id=Dystroy.broot  -e
+winget install -e --id=JesseDuffield.lazygit
