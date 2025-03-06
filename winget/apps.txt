@@ -4,3 +4,5 @@ winget install nushell
 winget install ajeetdsouza.zoxide
 winget install neofetch
 winget install Neovim.Neovim
+# after: broot --install
+winget install --id=Dystroy.broot  -e
