@@ -10,3 +10,4 @@ winget install -e --id=JesseDuffield.lazygit
 winget install Clement.bottom
 winget install sxyazi.yazi
 winget install jqlang.jq
+winget install hyperfine
