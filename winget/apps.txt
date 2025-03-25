@@ -13,3 +13,4 @@ winget install jqlang.jq
 winget install hyperfine
 winget install Helix.Helix
 winget install sharkdp.fd
+winget install sharkdp.bat
