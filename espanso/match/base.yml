@@ -44,3 +44,10 @@ matches:
     replace: "do you mean"
   - trigger: ":ty"
     replace: "thank you"
+  - trigger: ":datl"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d %B %Y"

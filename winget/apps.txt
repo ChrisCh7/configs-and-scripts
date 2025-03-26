@@ -1,3 +1,4 @@
+winget install --id Microsoft.PowerShell --source winget
 winget install fzf
 winget install BurntSushi.ripgrep.MSVC
 winget install nushell
@@ -14,4 +15,5 @@ winget install hyperfine
 winget install Helix.Helix
 winget install sharkdp.fd
 winget install sharkdp.bat
+# after: change shortcut to ctrl+~, install plugins: Window Walker
 winget install "Flow Launcher"

@@ -1,0 +1,5 @@
+Fixed-width Data Visualizer
+JSON Viewer
+Npp Xml Treeview
+NppExport
+XML Tools

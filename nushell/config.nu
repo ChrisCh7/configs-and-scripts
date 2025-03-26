@@ -24,6 +24,7 @@ $env.config.show_banner = false
 alias afk = pwsh -Command 'Add-Type -AssemblyName "System.Windows.Forms"; while ($true) { [System.Windows.Forms.SendKeys]::SendWait("+"); Start-Sleep -Seconds 30 }'
 alias cmd-run = ^cmd /c
 alias ps-run = ^pwsh -Command
+alias npp = ^'C:\Program Files\Notepad++\notepad++.exe'
 
 # custom commands
 def --env use-java [jdk_version: int] {

@@ -1,0 +1,72 @@
+# apps that I might want to install, in addition to those installed using winget
+
+# browsers
+Firefox
+Brave
+
+# programming
+Intellij IDEA
+Git
+Docker
+AWS Command Line Interface
+saml2aws
+Java SDK (Eclipse Temurin)
+Python
+Rust
+GNU Privacy Guard
+Microsoft Visual Studio Code
+Node.js
+Postman
+Windsurf
+
+# screenshot
+Flameshot
+ShareX
+
+# dictionary
+WordWeb
+
+# eye care
+f.lux
+
+# productivity
+QuickLook
+Espanso
+Agent Ransack
+AutoHotkey
+WinMerge
+
+# communication
+Telegram
+
+# archiving
+7-Zip
+
+# passwords
+Bitwarden
+KeePass Password Safe
+
+# image viewer
+IrfanView
+
+# screen recording
+OBS Studio
+
+# notes
+Obsidian
+Simplenote
+Standard Notes
+
+# text editing
+Notepad++
+Sublime Text
+Oxygen XML Editor
+
+# security, testing
+SandBoxie-Plus
+
+# pdf viewer
+SumatraPDF
+
+# media player
+VLC media player
