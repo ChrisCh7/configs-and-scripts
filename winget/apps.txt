@@ -14,3 +14,4 @@ winget install hyperfine
 winget install Helix.Helix
 winget install sharkdp.fd
 winget install sharkdp.bat
+winget install "Flow Launcher"
