@@ -25,6 +25,8 @@ alias afk = pwsh -Command 'Add-Type -AssemblyName "System.Windows.Forms"; while 
 alias cmd-run = ^cmd /c
 alias ps-run = ^pwsh -Command
 alias npp = ^'C:\Program Files\Notepad++\notepad++.exe'
+alias h = ^http
+alias hs = ^https
 
 # custom commands
 def --env use-java [jdk_version: int] {

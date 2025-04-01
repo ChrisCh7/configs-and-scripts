@@ -18,6 +18,7 @@ Microsoft Visual Studio Code
 Node.js
 Postman
 Windsurf
+HTTPie CLI
 
 # screenshot
 Flameshot
