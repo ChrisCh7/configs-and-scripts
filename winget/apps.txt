@@ -17,3 +17,5 @@ winget install sharkdp.fd
 winget install sharkdp.bat
 # after: change shortcut to ctrl+~, install plugins: Window Walker
 winget install "Flow Launcher"
+# after: disable auto start on boot
+winget install --exact --id MartiCliment.UniGetUI --source winget
