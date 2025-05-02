@@ -3,6 +3,7 @@
 # browsers
 Firefox
 Brave
+Browser Tamer
 
 # programming
 Intellij IDEA
