@@ -13,6 +13,7 @@ AWS Command Line Interface
 saml2aws
 Java SDK (Eclipse Temurin)
 Python
+uv
 Rust
 GNU Privacy Guard
 Microsoft Visual Studio Code
