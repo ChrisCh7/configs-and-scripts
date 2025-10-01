@@ -1,15 +1,7 @@
-# Define paths
-$source = "$env:USERPROFILE\Documents\BrunoCollections"
-$destination = "$env:USERPROFILE\IdeaProjects\bruno-collections"
+$cwd = pwd
 
-# Copy all content from source to destination, overwriting existing files
-Write-Host "Copying files from $source to $destination..."
-Copy-Item -Path "$source\*" -Destination $destination -Recurse -Force
+cd "$env:USERPROFILE\IdeaProjects\bruno-collections"
 
-# Change to destination directory
-Set-Location $destination
-
-# Run Git commands
 Write-Host "Adding changes to git..."
 git add -A
 
@@ -18,5 +10,7 @@ git commit -m "Changes"
 
 Write-Host "Pushing to remote repository..."
 git push
+
+cd $cwd
 
 Write-Host "Done."
